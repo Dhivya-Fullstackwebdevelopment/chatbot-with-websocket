@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-header {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-body {
+  background-color: #f4f4f4;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+.message-right {
+  background-color: #474f52;
+  color: white;
+  text-align: right;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message-left {
+  background-color: #e0e0e0;
+  color: black;
+  text-align: left;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.chat-footer {
+  display: flex;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-footer button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.chat-footer button:hover {
+  background-color: #45a0db;
+}
+
+.join-chat-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.join-chat-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.join-chat-form button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.join-chat-form button:hover {
+  background-color: #45a0db;
+}
+
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #ddd;
+}
